@@ -27,14 +27,21 @@ public class Weather {
 	
 	private Date date;
 	
-	private double humidity;
-	private double wind_speed;
-	private double temp;
-	private double aqua;
+	private float hum;
+	private float windSpeed;
+	private float temp;
+	private float aqua;
+	private float tempChg;
 	
-	private double avg_h;
-	private double avg_w;
-	private double avg_t;
-	private double sum_a;
+	private float agoHumMax;
+	private float agoHumMin;
+	private float agoWindMax;
+	private float agoWindMin;
+	private float agoTempMax;
+	private float agoTempMin;
+	private float agoTempChg;
+	private float agoAquaSum;
+	
+	
 	
 }

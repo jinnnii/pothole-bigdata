@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 import lombok.Data;
 @Entity
 @Data
-public class PotHole {
+public class Pothole {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="pothole_id")
@@ -24,12 +24,8 @@ public class PotHole {
 	private double longitude;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name="link_id")
-	private Link link;
-	
-	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name="region_id")
 	private Region region;
-	
+
 	private Date date;
 }

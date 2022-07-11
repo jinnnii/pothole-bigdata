@@ -1,0 +1,68 @@
+package com.pj.pothole.entity;
+
+import static com.querydsl.core.types.PathMetadataFactory.*;
+
+import com.querydsl.core.types.dsl.*;
+
+import com.querydsl.core.types.PathMetadata;
+import javax.annotation.processing.Generated;
+import com.querydsl.core.types.Path;
+import com.querydsl.core.types.dsl.PathInits;
+
+
+/**
+ * QDenger is a Querydsl query type for Denger
+ */
+@Generated("com.querydsl.codegen.DefaultEntitySerializer")
+public class QDenger extends EntityPathBase<Denger> {
+
+    private static final long serialVersionUID = 721414642L;
+
+    private static final PathInits INITS = PathInits.DIRECT2;
+
+    public static final QDenger denger = new QDenger("denger");
+
+    public final NumberPath<Integer> count = createNumber("count", Integer.class);
+
+    public final NumberPath<Float> crack = createNumber("crack", Float.class);
+
+    public final DateTimePath<java.util.Date> date = createDateTime("date", java.util.Date.class);
+
+    public final NumberPath<Integer> flood = createNumber("flood", Integer.class);
+
+    public final NumberPath<Long> id = createNumber("id", Long.class);
+
+    public final NumberPath<Float> manhole = createNumber("manhole", Float.class);
+
+    public final NumberPath<Float> population = createNumber("population", Float.class);
+
+    public final QRegion region;
+
+    public final NumberPath<Float> tosil = createNumber("tosil", Float.class);
+
+    public final QWeather weather;
+
+    public QDenger(String variable) {
+        this(Denger.class, forVariable(variable), INITS);
+    }
+
+    public QDenger(Path<? extends Denger> path) {
+        this(path.getType(), path.getMetadata(), PathInits.getFor(path.getMetadata(), INITS));
+    }
+
+    public QDenger(PathMetadata metadata) {
+        this(metadata, PathInits.getFor(metadata, INITS));
+    }
+
+    public QDenger(PathMetadata metadata, PathInits inits) {
+        this(Denger.class, metadata, inits);
+    }
+
+    public QDenger(Class<? extends Denger> type, PathMetadata metadata, PathInits inits) {
+        super(type, metadata, inits);
+        this.region = inits.isInitialized("region") ? new QRegion(forProperty("region")) : null;
+        this.weather = inits.isInitialized("weather") ? new QWeather(forProperty("weather"), inits.get("weather")) : null;
+    }
+
+}
+

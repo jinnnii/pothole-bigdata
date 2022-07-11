@@ -1,0 +1,5 @@
+package com.pj.pothole.service;
+
+public class ReportService {
+
+}

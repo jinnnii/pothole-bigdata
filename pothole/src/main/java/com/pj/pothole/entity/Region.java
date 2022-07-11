@@ -22,13 +22,18 @@ import lombok.Data;
 @Data
 public class Region {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="region_id")
+	@Column(name = "region_id")
 	private Long id;
-	
-	private String sido;
-	private String gugun;
 	private String dong;
-	
-//	private Collection<List<Float>> borderList = new ArrayList<List<Float>>();
+
+	private float population;
+
+	private float manhole;
+
+	private float crack;
+
+	private float tosil;
+
+	private int flood;
+
 }

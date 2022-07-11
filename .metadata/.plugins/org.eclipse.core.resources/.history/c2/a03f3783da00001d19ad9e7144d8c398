@@ -1,0 +1,5 @@
+package com.pj.pothole.repository;
+
+public class ReportRepository {
+
+}

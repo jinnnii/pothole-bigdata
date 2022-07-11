@@ -1,0 +1,40 @@
+package com.pj.pothole.entity;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class Weather {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="weather_id")
+	private Long id;
+
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name="region_id")
+	private Region region;
+	
+	private String date;
+	
+	private float humidity;
+	private float wind_speed;
+	private float temp;
+	private float aqua;
+	
+	private float avg_h;
+	private float avg_w;
+	private float avg_t;
+	private float sum_a;
+	
+}
