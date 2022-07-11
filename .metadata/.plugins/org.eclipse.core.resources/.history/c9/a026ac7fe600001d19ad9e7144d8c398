@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<iframe src="https://public.tableau.com/views/220710/1?:language=ko-KR&:display_count=n&:origin=viz_share_link" width="1024" height="700">
+
+
+</iframe>
+</body>
+</html>

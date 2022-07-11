@@ -28,8 +28,17 @@ public class Weather {
 	private Date date;
 	
 	private float hum;
+	private float humMax;
+	private float humMin;
+	
 	private float windSpeed;
+	private float windSpeedMax;
+	private float windSpeedMin;
+	
 	private float temp;
+	private float tempMax;
+	private float tempMin;
+	
 	private float aqua;
 	private float tempChg;
 	
@@ -39,7 +48,8 @@ public class Weather {
 	private float agoWindMin;
 	private float agoTempMax;
 	private float agoTempMin;
-	private float agoTempChg;
+	private float agoTempChgMax;
+	private float agoTempChgMin;
 	private float agoAquaSum;
 	
 	
