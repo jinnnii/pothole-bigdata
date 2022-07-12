@@ -23,7 +23,8 @@ import lombok.Data;
 public class Region {
 	@Id
 	@Column(name = "region_id")
-	private Long id;
+	private String id;
+	
 	private String dong;
 
 	private float population;
@@ -35,5 +36,7 @@ public class Region {
 	private float tosil;
 
 	private int flood;
+	
+	private float truck;
 
 }
