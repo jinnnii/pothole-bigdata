@@ -7,7 +7,6 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import com.pj.pothole.constant.Role;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -26,8 +25,4 @@ public class User {
 	@Column(nullable=false)
 	private String password;
 	
-	@Column(nullable=false)
-	@Enumerated(EnumType.STRING)
-	private Role role;
-
 }

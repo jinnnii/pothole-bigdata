@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="pothole">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <property name="context-root" value="pothole"/>
-        <property name="java-output-path" value="/pothole/target/classes"/>
-    </wb-module>
-</project-modules>
