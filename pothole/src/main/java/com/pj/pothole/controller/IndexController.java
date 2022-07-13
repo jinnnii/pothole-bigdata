@@ -13,5 +13,14 @@ public class IndexController {
 		return "index";
 	}
 	
+	@GetMapping("join")
+	public void joinForm() {
+		
+	}
+	
+	@GetMapping("login")
+	public void loiginForm() {
+		
+	}
 	
 }

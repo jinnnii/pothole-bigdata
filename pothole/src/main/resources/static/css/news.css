@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+    background-color: var(--color-lighter);
+}
+.table th,
+.table td {
+    padding: 0.3rem 0.8rem;
+}
+
+h1{
+	margin-bottom:1rem;
+}
+
+.news_header{
+	display:flex;
+	justify-content: space-between;
+    align-items: flex-start;
+}
+.table,.detail{
+	background-color:white;
+}
+
+.detail th,
+.detail td {
+    padding: 1rem;
+}
+
+.list{
+	padding:1rem 3rem;
+	background-color:var(--color-highlight);
+}
+
+.paging {
+	margin-top:2rem;
+	justify-content: center;
+	display:flex;
+}
+
+.paging a{
+	color:var(--color-main)
+}

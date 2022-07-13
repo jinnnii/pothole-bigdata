@@ -1,0 +1,14 @@
+.menu_box {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.menu_box li {
+    padding: 1rem;
+    background-color: var(--color-midlight);
+}
+
+.menu_box li a {
+    color: white;
+}

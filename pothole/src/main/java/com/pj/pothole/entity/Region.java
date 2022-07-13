@@ -24,7 +24,10 @@ public class Region {
 	@Id
 	@Column(name = "region_id")
 	private String id;
+<<<<<<< Updated upstream
 	
+=======
+>>>>>>> Stashed changes
 	private String dong;
 
 	private float population;

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "scd-5";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "scd-9";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "unicons";
+    src: url("http://www.fontsaddict.com/fontface/unicons.ttf");
+}
+:root {
+    --highlight-font: "scd-9";
+    --content-font: "scd-5";
+
+    --color-main: #131313;
+    --color-second: #474747;
+    --color-third: #8d8d8d;
+
+    --color-lighter: #ececee;
+    --color-highlight: #f3ba00;
+    --color-midlight: #ce7500;
+
+    --color-red: #b70000;
+}
+
+* {
+    margin: 0;
+    font-family: var(--content-font);
+    color: var(--color-main);
+}
+
+body {
+    background: #42455a;
+    min-height: 100vh;
+    background-image: url("/image/simple_road.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+ul,
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 0;
+    margin: 0;
+}
+a {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--color-main);
+}
+button,
+input {
+    border: none;
+    background-color: transparent;
+    outline-style: none;
+    font-size: 1em;
+}
+
+select {
+    border: none;
+    background-color: transparent;
+    outline-style: none;
+    font-family: var(--content-font);
+    font-size: 1em;
+}
+button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    outline-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="file"] + label {
+    cursor: pointer;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+p {
+    margin: 0;
+}
+
+label {
+    margin: 0;
+}
+
+iframe {
+    border: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.8rem;
+    border-bottom: 1px solid var(--color-third);
+}
+
+header a {
+    font-family: var(--highlight-font);
+    padding: 5px 2rem;
+    color: var(--color-lighter);
+    font-size: 0.9rem;
+}

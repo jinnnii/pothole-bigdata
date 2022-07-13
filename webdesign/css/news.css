@@ -1,0 +1,7 @@
+body {
+    background-color: var(--color-lighter);
+}
+.table th,
+.table td {
+    padding: 0.25rem;
+}
