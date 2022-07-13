@@ -43,7 +43,7 @@
 body {
     background: #42455a;
     min-height: 100vh;
-    background-image: url("/image/simple_road.svg");
+    background-image: url("/image/background_road.svg");
     background-position: bottom;
     background-repeat: no-repeat;
 }

@@ -1,6 +1,12 @@
 @charset "UTF-8";
 body {
-    background-color: var(--color-lighter);
+  	background-color: var(--color-lighter);
+    min-height: 100vh;
+    background-image: url("/image/background_road.svg"),
+    url("/image/wordcloud_result.png");
+    background-position:bottom, right center;
+    background-repeat: no-repeat;
+    background-size : contain, 500px 500px;
 }
 .table th,
 .table td {
