@@ -123,11 +123,16 @@ header {
     justify-content: flex-end;
     padding: 0.8rem;
     border-bottom: 1px solid var(--color-third);
+    background-color:var(--color-main);
 }
 
 header a {
     font-family: var(--highlight-font);
     padding: 5px 2rem;
-    color: var(--color-main);
+    color:var(--color-lighter);
     font-size: 0.9rem;
+}
+
+header a:hover {
+    color:var(--color-highlight)
 }

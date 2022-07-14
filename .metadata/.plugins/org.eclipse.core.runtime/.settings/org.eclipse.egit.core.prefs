@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=D\:\\kej\\pothole-bigdata\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
-RepositorySearchDialogSearchPath=D\:\\kej\\pothole-bigdata
+GitRepositoriesView.GitDirectories=C\:\\kej\\pothole_spring\\.git;C\:\\kej\\study_and_cafe\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\kej\\study_and_cafe\\.git;
+RepositorySearchDialogSearchPath=C\:\\kej\\study_and_cafe
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

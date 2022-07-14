@@ -11,9 +11,11 @@
 <body>
 <button>현황</button>
 <button>예측</button>
-<iframe src="https://public.tableau.com/views/220710/1?:language=ko-KR&:display_count=n&:origin=viz_share_link&:embed=yes&:showVizHome=no&:showAppBanner=false&:showAskData=false&:showShareOptions=false&:subscriptions=no&:tabs=no&:toolbar=no&:tooltip=no">
-
-
+<p class="middle">
+<iframe src="https://public.tableau.com/shared/YJWK6G83T?:display_count=n&:origin=viz_share_link&:embed=yes&:showVizHome=no&:showAppBanner=false&:showAskData=false&:showShareOptions=false&:subscriptions=no&:tabs=no&:toolbar=no&:tooltip=no">
+</iframe></p>
+<iframe src="https://public.tableau.com/shared/RRB64FT8J?:display_count=n&:origin=viz_share_link&:embed=yes&:showVizHome=no&:showAppBanner=false&:showAskData=false&:showShareOptions=false&:subscriptions=no&:tabs=no&:toolbar=no&:tooltip=no">
 </iframe>
+
 </body>
 </html>
