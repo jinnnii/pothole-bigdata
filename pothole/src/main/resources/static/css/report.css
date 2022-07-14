@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.privacyTbl dt{
+	border-bottom: 1px solid var(--color-third);
+
+}
+.privacyTbl ul {
+	display: flex;
+	flex-direction: column;
+	flex-direction: column;
+}
+
+.privacyTbl li {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-bottom: 1px solid var(--color-third);
+}
+
+.privacyTbl li strong {
+	width: 38%;
+	background: var(--color-second);
+	color: var(--color-main);
+	display: table-cell;
+	padding: 7px 15px;
+	font-size:0.9rem;
+}
+
+.privacyTbl li span {
+	width: 62%;
+	border-left: 1px solid var(--color-third);
+	display: table-cell;
+	padding: 7px 15px;
+	font-size:0.9rem;
+}
+
+.table_bbs>table:first-child {
+    border-top: 2px solid #999;
+    margin-top: 18px;
+}
+
+.table_bbs.singo>table>tbody>tr>th {
+    width: 260px;
+    padding: 12px 0px 12px 30px;
+    color: #333;
+    font-weight: 300;
+    vertical-align: top;
+}
+
+.table_bbs.singo>table>tbody>tr>td {
+    padding: 12px 20px 12px 30px;
+    color: #666;
+    word-break: break-all;
+}
+
+
+.table_bbs>table>tbody>tr>td, .table_bbs>table>tr>td, .table_bbs>table>tbody>tr>th, .table_bbs>table>tr>th {
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 0;
+}
+.table_bbs>table>thead>tr>th, .table_bbs>table>tbody>tr>th, .table_bbs>table>tr>th {
+    padding: 5px 0 15px 0;
+    font-weight: 700;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.table_bbs{
+	background-color:white;
+}
+
+textarea{
+	width:100%;
+	min-height:100px;
+	max-height:100px;
+	border:none;
+}
+
+.find_address{
+	padding : 0.5rem 2rem;
+	background-color: var(--color-highlight);
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.send-box{
+	text-align:center;
+}
+#btnReport{
+	padding : 0.5rem 2rem;
+	background-color: var(--color-highlight);
+	margin: 5rem 0;
+}

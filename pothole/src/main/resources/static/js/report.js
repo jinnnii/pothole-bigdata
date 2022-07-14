@@ -38,27 +38,8 @@ $(document).ready(function(){
 			$("#email1").focus();
             return false;
 		}
-		if($("#sample6_postcode").val() == "") {
-			alert("우편번호를 입력하세요");
-			$("#sample6_postcode").focus();
-            return false;
-		}
-		if($("#sample6_address").val() == "") {
-			alert("주소를 입력하세요");
-			$("#sample6_address").focus();
-            return false;
-		}
-		if($("#sample6_detailAddress").val() == "") {
-			alert("상세주소를 입력하세요");
-			$("#sample6_detailAddress").focus();
-            return false;
-		}
-		if($("#sample6_extraAddress").val() == "") {
-			alert("참고항목 입력하세요");
-			$("#sample6_extraAddress").focus();
-            return false;
-		}
 		
+	
 		var data={
 			"reportType":$("#reportType").val(),
 			"title":$("#title").val(),

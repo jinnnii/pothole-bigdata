@@ -24,8 +24,8 @@
     --content-font: "scd-5";
 
     --color-main: #131313;
-    --color-second: #474747;
-    --color-third: #8d8d8d;
+    --color-second: #dfdfdf;
+    --color-third: #b4b4b4;
 
     --color-lighter: #ececee;
     --color-highlight: #f3ba00;
@@ -41,7 +41,7 @@
 }
 
 body {
-    background: #42455a;
+    background: var(--color-lighter);
     min-height: 100vh;
     background-image: url("/image/background_road.svg");
     background-position: bottom;
@@ -128,6 +128,6 @@ header {
 header a {
     font-family: var(--highlight-font);
     padding: 5px 2rem;
-    color: var(--color-lighter);
+    color: var(--color-main);
     font-size: 0.9rem;
 }
