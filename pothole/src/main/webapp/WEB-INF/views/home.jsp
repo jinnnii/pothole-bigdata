@@ -68,7 +68,7 @@
 				<div class="text-box">
 					<h3>포트홀 현황 및 예측</h3>
 					<p>날씨와 교통량 증가량, 상습 침수구역, 인구밀도, 도로사고 데이터 정보를 분석하여 지역별 포트홀 발생 확률 모델을 구축하였습니다.</p>
-					<a href="/index" class="gotofast">바로가기</a>
+					<a href="/maps" class="gotofast">바로가기</a>
 				</div>
 
 				<div class="text-box">

@@ -2,7 +2,7 @@
 body {
   	background-color: var(--color-lighter);
     min-height: 100vh;
-    background-image: url("/image/road_bottom.jpg"),
+    background-image: url("/image/background_road.svg"),
     url("/image/wordcloud_result.png");
     background-position:bottom, right center;
     background-repeat: no-repeat;

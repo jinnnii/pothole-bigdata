@@ -70,6 +70,10 @@ input {
     outline-style: none;
     font-size: 1em;
 }
+button:focus{
+	border: none;
+	outline-style: none;
+}
 
 select {
     border: none;

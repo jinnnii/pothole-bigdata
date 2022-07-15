@@ -62,7 +62,7 @@ $(document).ready(function(){
 		.done(function(res){
 			if(res=="success"){
 				alert("신고가 정상적으로 되었습니다.");
-				location.href="/index";
+				location.href="/report";
 			}
 			//else if(res=="fail"){
 			//	alert("아이디 중복확인하세요");
