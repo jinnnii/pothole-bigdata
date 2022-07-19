@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="/css/news.css" />
 </head>
 <body>
+<div class="wordcloud"></div>
 	<div class="container pt-5 table-responsive">
 		<table class="table table-hover">
 			<h1>재난안전뉴스룸</h1>

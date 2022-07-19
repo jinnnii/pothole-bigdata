@@ -24,8 +24,8 @@
     --content-font: "scd-5";
 
     --color-main: #131313;
-    --color-second: #474747;
-    --color-third: #8d8d8d;
+    --color-second: #dfdfdf;
+    --color-third: #b4b4b4;
 
     --color-lighter: #ececee;
     --color-highlight: #f3ba00;
@@ -41,9 +41,9 @@
 }
 
 body {
-    background: #42455a;
+    background: var(--color-lighter);
     min-height: 100vh;
-    background-image: url("/image/simple_road.svg");
+    background-image: url("/image/background_road.svg");
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -69,6 +69,10 @@ input {
     background-color: transparent;
     outline-style: none;
     font-size: 1em;
+}
+button:focus{
+	border: none;
+	outline-style: none;
 }
 
 select {
@@ -123,11 +127,16 @@ header {
     justify-content: flex-end;
     padding: 0.8rem;
     border-bottom: 1px solid var(--color-third);
+    background-color:var(--color-main);
 }
 
 header a {
     font-family: var(--highlight-font);
     padding: 5px 2rem;
-    color: var(--color-lighter);
+    color:var(--color-lighter);
     font-size: 0.9rem;
+}
+
+header a:hover {
+    color:var(--color-highlight)
 }

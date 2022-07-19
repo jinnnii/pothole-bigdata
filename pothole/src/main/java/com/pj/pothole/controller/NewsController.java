@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -35,7 +36,7 @@ public class NewsController {
 			@RequestParam(name="page", defaultValue="0") int page,
 			@RequestParam(name="field", defaultValue="") String field,
 			@RequestParam(name="word", defaultValue="") String word,
-			@PageableDefault(size=10)Pageable pageable) {
+			@PageableDefault(size=10, sort="id",direction=Direction.DESC)Pageable pageable) {
 		
 		List<News> newsList = null;
 		if(!field.equals("")&&!word.equals("")) {

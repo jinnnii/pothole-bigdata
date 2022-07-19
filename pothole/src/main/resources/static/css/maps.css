@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+	background-color:white;
+	background-image:none;
+	text-align:center;
+	margin:0;
+}
+
+iframe{
+	display:flex;
+	width:1600px;
+	height:800px;
+	margin: 0 auto;
+	text-align:center;
+	font-family:var(--content-font);
+}
+.middle{
+	text-align:center;
+	padding-top:3rem;
+}
+
+.tabs{
+	display:flex;
+	justify-content: center;
+	background-color: var(--color-main);
+}
+
+.tabs button{
+	padding: 0.5rem 2rem;
+	color:var(--color-lighter)
+}
+
+.tabs button:hover{
+	color:var(--color-third)
+}

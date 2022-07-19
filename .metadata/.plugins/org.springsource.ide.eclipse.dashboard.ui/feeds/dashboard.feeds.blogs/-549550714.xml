@@ -5,7 +5,35 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-07-13T07:00:00Z</updated>
+  <updated>2022-07-14T13:00:00Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Nate Schutta: The Thinking Person's Architect, My Friend, and Teammate</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/07/14/a-bootiful-podcast-nate-schutta-the-thinking-person-s-architect-my-friend-and-teammate" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-07-14:4853</id>
+    <updated>2022-07-14T13:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to his friend, teammate, and architect extraordinaire, &lt;a href="https://twitter.com/ntschutta"&gt;Nate Schutta (@ntschutta)&lt;/a&gt;&lt;/p&gt;
+&lt;iframe title="Nate Schutta: The Thinking Person¡¯s Architect, My Friend, and Teammate" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=y9v6x-127346e-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Framework 6.0.0-M5 and 5.3.22 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/07/14/spring-framework-6-0-0-m5-and-5-3-22-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>St?phane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2022-07-14:4852</id>
+    <updated>2022-07-14T09:39:09Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;6.0.0-M5&lt;/code&gt; and &lt;code&gt;5.3.22&lt;/code&gt; are available now.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.3.22&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.22"&gt;45 fixes and improvements&lt;/a&gt; and is a recommended upgrade for all Spring production scenarios.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;6.0.0-M5&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v6.0.0-M5"&gt;85 additional fixes and improvements&lt;/a&gt; specific to the 6.0 branch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.22/reference/html/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Native 0.12.1 available now</title>
     <link rel="alternate" href="https://spring.io/blog/2022/07/13/spring-native-0-12-1-available-now" />
@@ -608,84 +636,6 @@ dependencyManagement {&#xD;
   &lt;li&gt;Spring Data Elasticsearch &lt;code&gt;4.3.5&lt;/code&gt; - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-elasticsearch/4.3.5"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/4.3.5/api/"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/4.3.5/reference/html/"&gt;Documentation&lt;/a&gt; - &lt;a href="https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/4.3.5"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Couchbase &lt;code&gt;4.3.5&lt;/code&gt; - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-couchbase/4.3.5"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/4.3.5/api/"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/4.3.5/reference/html/"&gt;Documentation&lt;/a&gt; - &lt;a href="https://github.com/spring-projects/spring-data-couchbase/releases/tag/4.3.5"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Data MongoDB SpEL Expression Injection Vulnerability (CVE-2022-22980)</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/06/20/spring-data-mongodb-spel-expression-injection-vulnerability-cve-2022-22980" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Mark Paluch</name>
-    </author>
-    <id>tag:spring.io,2022-06-17:4832</id>
-    <updated>2022-06-20T12:39:00Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt; &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;[06-20]&lt;/strong&gt; &lt;a href="https://tanzu.vmware.com/security/cve-2022-22980"&gt;CVE-2022-22980&lt;/a&gt; is published&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;[06-20]&lt;/strong&gt; Spring Data MongoDB &lt;strong&gt;3.4.1&lt;/strong&gt; and &lt;strong&gt;3.3.5&lt;/strong&gt; are available&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;&lt;a href="#table-of-contents" class="anchor" name="table-of-contents"&gt;&lt;/a&gt;Table of Contents&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#vulnerability"&gt;Vulnerability&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#am-i-impacted"&gt;Am I Impacted&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#status"&gt;Status&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#suggested-workarounds"&gt;Suggested Workarounds&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#overview" class="anchor" name="overview"&gt;&lt;/a&gt;Overview&lt;/h3&gt;
-&lt;p&gt;We would like to announce that we have released Spring Data MongoDB 3.4.1 and 3.3.5 to address the following CVE report:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/security/cve-2022-22980"&gt;CVE-2022-22980: Spring Data MongoDB SpEL Expression injection vulnerability through annotated repository query methods&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This vulnerability was responsibly reported by Zewei Zhang from NSFOCUS TIANJI Lab on Monday, June 13 2022. The full report will be published to MITRE and as security advisory under &lt;a href="https://tanzu.vmware.com/security"&gt;tanzu.vmware.com/security&lt;/a&gt; in the upcoming days.&lt;/p&gt;&lt;h3&gt;&lt;a href="#vulnerability" class="anchor" name="vulnerability"&gt;&lt;/a&gt;Vulnerability&lt;/h3&gt;
-&lt;p&gt;The vulnerability affects Spring Data MongoDB applications using repository query methods that are annotated with &lt;code&gt;@Query&lt;/code&gt; or &lt;code&gt;@Aggregation&lt;/code&gt; and use parametrized SpEL statements. A specific exploit requires the usage of non-sanitized input to the repository query method.&lt;/p&gt;&lt;h3&gt;&lt;a href="#am-i-impacted" class="anchor" name="am-i-impacted"&gt;&lt;/a&gt;Am I Impacted?&lt;/h3&gt;
-&lt;p&gt;These are the necessary conditions for the specific vulnerability:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Declaration of repository query methods annotated with &lt;code&gt;@Query&lt;/code&gt; or &lt;code&gt;@Aggregation&lt;/code&gt; that make use of SpEL (Spring Expression Language) and use input parameter references (&lt;code&gt;?0&lt;/code&gt;, &lt;code&gt;?1&lt;/code&gt;, ¡¦) within the SpEL expression&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;spring-data-mongodb&lt;/code&gt; dependency&lt;/li&gt;
-  &lt;li&gt;Spring Data MongoDB 3.4.0, 3.3.0 to 3.3.4, and older versions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Additional Notes&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The issue relates to repository query method invocation to assemble the MongoDB query using expressions. The vulnerability occurs during query assembly and does not require the query to be executed for exploitation.&lt;/li&gt;
-  &lt;li&gt;Referencing SpEL arguments through the array-syntax (&lt;code&gt;[0]&lt;/code&gt;, &lt;code&gt;[1]&lt;/code&gt;, &lt;code&gt;[¡¦]&lt;/code&gt;) does not create a vulnerability and is a recommended workaround if you cannot upgrade to a version that contains the fix&lt;/li&gt;
-  &lt;li&gt;The vulnerability can only be exploited if an application invokes the query method with non-sanitized user input. Alternatively, arrangements that expose repository query methods without involving additional application code (such as Spring Data REST) are vulnerable as well.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#status" class="anchor" name="status"&gt;&lt;/a&gt;Status&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Data MongoDB 3.4.1 and 3.3.5, which contain the fixes, have been released.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#suggested-workarounds" class="anchor" name="suggested-workarounds"&gt;&lt;/a&gt;Suggested Workarounds&lt;/h3&gt;
-&lt;p&gt;The preferred response is to update to Spring Data MongoDB &lt;strong&gt;3.4.1&lt;/strong&gt; and &lt;strong&gt;3.3.5&lt;/strong&gt; or greater. If you have done this, then no workarounds are necessary. However, some may be in a position where upgrading is impossible to do quickly. For that reason, we have provided some workarounds below.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="#using-array-syntax"&gt;Using Array Syntax&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#implementing-a-custom-repository-method"&gt;Implementing a custom repository method&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Please note that workarounds are not necessarily mutually exclusive since security is best done &amp;ldquo;in-depth&amp;rdquo;.&lt;/p&gt;&lt;h4&gt;&lt;a href="#using-array-syntax" class="anchor" name="using-array-syntax"&gt;&lt;/a&gt;Using Array Syntax&lt;/h4&gt;
-&lt;p&gt;If your application requires dynamic SpEL expressions that are controlled by user input, then referencing SpEL arguments using the array syntax &lt;code&gt;[0]&lt;/code&gt; is a safe way to access SpEL arguments.&lt;/p&gt;&lt;h4&gt;&lt;a href="#implementing-a-custom-repository-method" class="anchor" name="implementing-a-custom-repository-method"&gt;&lt;/a&gt;Implementing a custom repository method&lt;/h4&gt;
-&lt;p&gt;Replacing the SpEL expression with a custom repository method implementation is a viable workaround to assemble your dynamic query within the application code. Refer to the &lt;a href="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#repositories.single-repository-behavior"&gt;reference documentation on repository customization&lt;/a&gt; for further details.&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tools 4.15.1 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/06/18/spring-tools-4-15-1-released" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Martin Lippert</name>
-    </author>
-    <id>tag:spring.io,2022-06-18:4834</id>
-    <updated>2022-06-18T07:00:00Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;p&gt;I am happy to announce the 4.15.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.&lt;/p&gt;&lt;h4&gt;&lt;a href="#fixes-and-improvements" class="anchor" name="fixes-and-improvements"&gt;&lt;/a&gt;fixes and improvements&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: VScode incorrectly suggests removing @Autowired annotation from methods (&lt;a href="https://github.com/spring-projects/sts4/issues/787"&gt;#787&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: VScode quick fix should not suggest removing @Autowired annotation from JUnit tests (&lt;a href="https://github.com/spring-projects/sts4/issues/786"&gt;#786&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: Not able to extract the new version of spring-tool-suite-4-4.15.0.RELEASE-e4.24.0-win32.win32.x86_64.self-extracting.jar on windows 11 (&lt;a href="https://github.com/spring-projects/sts4/issues/788"&gt;#788&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: Cannot open Spring Boot Language Server Java Editor settings menu (&lt;a href="https://github.com/spring-projects/sts4/issues/789"&gt;#789&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2022-06-17-4151-release-incl-language-servers-version-1360"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2022-06-17-4151-release-incl-language-servers-version-1360&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Spring Tools 4.15.2 is scheduled to be released in early August 2022.&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
